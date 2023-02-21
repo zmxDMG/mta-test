@@ -1,0 +1,4 @@
+<meta>
+    <info author="ZMX" version="1.0" name="Wybuch" />
+    <script src="wybuch.lua" type="client" />
+</meta>
