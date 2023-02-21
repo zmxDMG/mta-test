@@ -5,31 +5,31 @@
 ---
 
 
--- Znajdź obiekt czerwonego samochodu
+-- Szuka czerwonego auta
 local redCar = getElementByID("redCar")
 
--- Utwórz funkcję sprawdzającą, czy gracz znajduje się w pobliżu samochodu
+-- Funkcja ktora sprawdza czy gracz jest kolo czerwonego auta
 function checkPlayerNearby()
     local player = getLocalPlayer()
     local x1, y1, z1 = getElementPosition(player)
     local x2, y2, z2 = getElementPosition(redCar)
     local distance = getDistanceBetweenPoints3D(x1, y1, z1, x2, y2, z2)
 
-    -- Jeśli gracz jest wystarczająco blisko samochodu, wywołaj funkcję eksplozji
+    -- Sprawdza czy jest blisko auta
     if distance < 5 then
         triggerServerEvent("explodeRedCar", resourceRoot)
     end
 end
 
--- Wywołaj funkcję sprawdzającą co 100 ms
+-- Funkcja sprawdzajca
 setTimer(checkPlayerNearby, 100, 0)
 
--- Utwórz funkcję eksplozji
+-- Ekspolzja
 function explodeRedCar()
     local x, y, z = getElementPosition(redCar)
     createExplosion(x, y, z)
 end
 
--- Zarejestruj funkcję eksplozji jako zdarzenie serwera
+-- funkcja ekspolizji po srv
 addEvent("explodeRedCar", true)
 addEventHandler("explodeRedCar", resourceRoot, explodeRedCar)
