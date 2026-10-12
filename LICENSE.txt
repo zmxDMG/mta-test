@@ -1,0 +1,30 @@
+LICENCJA WŁASNOŚCIOWA — WSZYSTKIE PRAWA ZASTRZEŻONE
+
+Copyright (c) 2026 ZMX. Wszelkie prawa zastrzeżone.
+
+Projekt zawarty w tym repozytorium, w zakresie kodu źródłowego, plików
+konfiguracyjnych, dokumentacji i wersji skompilowanych, do których prawa
+przysługują ZMX (dalej „Oprogramowanie”), jest własnością ZMX.
+
+Wszelkie prawa do Oprogramowania są zastrzeżone wyłącznie dla ZMX. Żadna
+licencja ani inne uprawnienie do korzystania z Oprogramowania nie jest
+udzielane żadnej innej osobie.
+
+Żadna inna osoba nie jest uprawniona do:
+
+- używać, uruchamiać ani wdrażać Oprogramowania;
+- kopiować, reprodukować, publikować ani rozpowszechniać Oprogramowania;
+- modyfikować, adaptować, tłumaczyć ani przetwarzać Oprogramowania;
+- tworzyć ani rozpowszechniać utworów zależnych od Oprogramowania;
+- udostępniać Oprogramowania ani jego części osobom trzecim.
+
+Ograniczenia te dotyczą wszelkich form Oprogramowania, w tym jego kodu
+źródłowego i wersji skompilowanych, oraz zastosowań komercyjnych i
+niekomercyjnych.
+
+Repozytorium prywatne ani dostęp do niego nie stanowią zgody na korzystanie
+z Oprogramowania. Powyższe postanowienia nie ograniczają praw, których nie
+można wyłączyć na mocy bezwzględnie obowiązujących przepisów prawa.
+
+Licencja dotyczy wyłącznie elementów, do których prawa przysługują ZMX.
+Nie zmienia licencji ani praw do elementów należących do osób trzecich.
